@@ -1,0 +1,2 @@
+dwr.engine.util.tokenify(new Date().getTime()) + "-" + dwr.engine.util.tokenify(Math.random() * 1E16);
+dwr.engine._scriptSessionId = dwrsess + "/" + dwr.engine._pageId;
